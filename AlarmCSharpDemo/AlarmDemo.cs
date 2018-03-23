@@ -366,7 +366,7 @@ namespace AlarmCSharpDemo
             }
             catch
             {
-                server_socket.Close();
+                //server_socket.Close();
                 ifcontent = false;
             }
 

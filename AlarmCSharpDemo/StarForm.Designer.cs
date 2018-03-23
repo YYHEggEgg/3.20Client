@@ -50,7 +50,7 @@
             "武汉监控",
             "西安监控",
             "成都监控"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 90);
+            this.comboBox1.Location = new System.Drawing.Point(149, 124);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(101, 20);
             this.comboBox1.TabIndex = 60;
@@ -59,7 +59,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label10.Location = new System.Drawing.Point(53, 93);
+            this.label10.Location = new System.Drawing.Point(68, 124);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(59, 12);
             this.label10.TabIndex = 59;
@@ -67,17 +67,17 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(46, 135);
+            this.button1.Location = new System.Drawing.Point(63, 180);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 61;
-            this.button1.Text = "确认";
+            this.button1.Text = "添加";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(160, 135);
+            this.button2.Location = new System.Drawing.Point(177, 180);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 62;
@@ -89,7 +89,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(54, 25);
+            this.label1.Location = new System.Drawing.Point(69, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 12);
             this.label1.TabIndex = 63;
@@ -99,7 +99,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(49, 57);
+            this.label2.Location = new System.Drawing.Point(64, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 12);
             this.label2.TabIndex = 64;
@@ -107,23 +107,25 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(135, 22);
+            this.textBox1.Location = new System.Drawing.Point(150, 53);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 65;
+            this.textBox1.Text = "192.168.1.98";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(135, 54);
+            this.textBox2.Location = new System.Drawing.Point(150, 85);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 21);
             this.textBox2.TabIndex = 66;
+            this.textBox2.Text = "2012";
             // 
             // StarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 185);
+            this.ClientSize = new System.Drawing.Size(312, 245);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
